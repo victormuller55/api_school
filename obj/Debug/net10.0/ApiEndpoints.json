@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "WebApi.Controller.StudentController",
+    "Method": "Post",
+    "RelativePath": "api/v1/estudantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentViewModel",
+        "Type": "WebApi.ViewModel.StudentViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controller.StudentController",
+    "Method": "Get",
+    "RelativePath": "api/v1/estudantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controller.StudentController",
+    "Method": "Login",
+    "RelativePath": "api/v1/estudantes/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
